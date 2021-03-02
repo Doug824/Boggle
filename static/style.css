@@ -10,7 +10,7 @@ table {
 }
 
 .board {
-  border: solid 3px rgb(255, 255, 255);
+  border: solid 3px antiquewhite;
   font-family: 'Fredoka One', cursive;
   font-weight: bold;
   font-size: 200%;
@@ -20,7 +20,7 @@ table {
   text-align: center;
   width: 2.5em;
   height: 2.5em;
-  background-color: rgb(243, 243, 217);
+  background-color: antiquewhite;
   font-size: 30px;
   border-radius: 15px;
 }
@@ -28,7 +28,7 @@ table {
 #head {
 font-size: 100px;
 color: tomato;
--webkit-text-stroke: 2px white;
+-webkit-text-stroke: 2px antiquewhite;
 font-family: 'Fredoka One', cursive;
 text-align: center;
 }
@@ -38,24 +38,28 @@ text-align: center;
 }
 
 .msg.ok {
-  color: white;
-  background-color: rgb(68, 233, 18);
+  color: antiquewhite;
+  background-color: rgb(74, 199, 236);
 }
 
 .msg.err {
-  color: white;
+  color: antiquewhite;
   background-color: rgb(255, 38, 0);
 }
 
-p {
+p, .words {
   text-align: center;
   color: antiquewhite;
   font-size: 18px;
   font-family: 'Fredoka One', cursive;
 }
 
+.words {
+  list-style: inside;
+}
+
 #enter {
-  background-color: rgb(243, 243, 217);
+  background-color: antiquewhite;
   font-family: 'Fredoka One', cursive;
   border-radius: 10px;
 }
