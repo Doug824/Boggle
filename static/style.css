@@ -1,0 +1,65 @@
+html {
+  background-color: rgb(49, 103, 204);
+}
+
+html, body {
+  width: 100%;
+}
+table {
+  margin: 0 auto;
+}
+
+.board {
+  border: solid 3px rgb(255, 255, 255);
+  font-family: 'Fredoka One', cursive;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+.board td {
+  text-align: center;
+  width: 2.5em;
+  height: 2.5em;
+  background-color: rgb(243, 243, 217);
+  font-size: 30px;
+  border-radius: 15px;
+}
+
+#head {
+font-size: 100px;
+color: tomato;
+-webkit-text-stroke: 2px white;
+font-family: 'Fredoka One', cursive;
+text-align: center;
+}
+
+.msg {
+  padding: 1em;
+}
+
+.msg.ok {
+  color: white;
+  background-color: rgb(68, 233, 18);
+}
+
+.msg.err {
+  color: white;
+  background-color: rgb(255, 38, 0);
+}
+
+p {
+  text-align: center;
+  color: antiquewhite;
+  font-size: 18px;
+  font-family: 'Fredoka One', cursive;
+}
+
+#enter {
+  background-color: rgb(243, 243, 217);
+  font-family: 'Fredoka One', cursive;
+  border-radius: 10px;
+}
+
+.add-word {
+  text-align: center;
+}
