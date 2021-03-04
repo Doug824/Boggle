@@ -49,7 +49,7 @@ text-align: center;
 
 p, .words {
   text-align: center;
-  color: antiquewhite;
+  color: rgb(255, 255, 255);
   font-size: 18px;
   font-family: 'Fredoka One', cursive;
 }

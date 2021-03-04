@@ -32,13 +32,13 @@ def check_word():
 
 @app.route("/post-score", methods=["POST"])
 def post_score():
-    """Receive score, update nplays, update high score if appropriate."""
+    """Receive score, update numplays, update high score if appropriate."""
 
     score = request.json["score"]
     highscore = session.get("highscore", 0)
-    nplays = session.get("numplays", 0)
+    numplays = session.get("numplays", 0)
 
-    session['numplays'] = nplays + 1
+    session['numplays'] = numplays + 1
     session['highscore'] = max(score, highscore)
 
     return jsonify(brokeRecord=score > highscore)
